@@ -12,22 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Conduct/zustand-forms.git"
+    "url": "git+https://github.com/Conduct/react-helpers-web.git"
   },
   "keywords": [
-    "form",
-    "forms",
-    "zustand",
     "react",
-    "typescript",
-    "validation"
+    "react-native",
+    "typescript"
   ],
   "author": "Hugo McPhee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Conduct/zustand-forms/issues"
+    "url": "https://github.com/Conduct/react-helpers-web/issues"
   },
-  "homepage": "https://github.com/Conduct/zustand-forms#readme",
+  "homepage": "https://github.com/Conduct/react-helpers-web#readme",
   "typings": "./lib/index.d.ts",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.7.1",
@@ -53,9 +50,7 @@
     "arrowParens": "always"
   },
   "dependencies": {
-    "immer": "^7.0.7",
     "use-resize-observer": "^6.1.0",
-    "zustand": "^2.2.4",
     "react-spring": "^9.0.0-rc.3",
     "lodash.throttle": "^4.1.1",
     "@emotion/core": "^10.0.34",
