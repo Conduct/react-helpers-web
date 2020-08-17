@@ -88,7 +88,6 @@ const TransitionViewWithoutMemo: React.FC<Props> = ({
   local.totalChildrenHeight = 0;
   const childrenListData = childrenArray
     .filter((loopedChild) => {
-      // console.log("key", loopedChild.key);
       if (!loopedChild.key || typeof loopedChild.key !== "string") {
         console.warn("no or incorrect key set for child in TransitionView");
         return false;
@@ -98,8 +97,6 @@ const TransitionViewWithoutMemo: React.FC<Props> = ({
     })
     .map((loopedChild, index) => {
       const loopedChildId = loopedChild.key as string;
-      // console.log("loopedChildId", loopedChildId);
-      // console.log(loopedChildId);
       const measuredHeight =
         measuredChildHeightsByKey[loopedChildId] || initialChildHeight;
 

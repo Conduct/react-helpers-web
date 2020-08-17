@@ -1,6 +1,6 @@
 {
   "name": "react-helpers-web",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "**components, utils and hooks for react-DOM**",
   "main": "./lib/index.js",
   "scripts": {
