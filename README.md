@@ -24,6 +24,8 @@ utils
 // package.json
 "dependencies": { "react-helpers-web": "github:Conduct/react-helpers-web" }
 ```
+to avoid unexpected version updates, a specific commit of the package can be installed
+`"github:Conduct/react-helpers-web#commit"`
 
 ## TransitonView
 
