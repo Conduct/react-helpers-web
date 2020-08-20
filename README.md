@@ -22,10 +22,10 @@ utils
 
 ```ts
 // package.json
-"dependencies": { "react-helpers-web": "github:Conduct/react-helpers-web" }
+"dependencies": { "react-helpers-web": "github:Conduct/react-helpers-web#v0.1.1" }
 ```
-to avoid unexpected version updates, a specific commit of the package can be installed
-`"github:Conduct/react-helpers-web#commit"`
+
+_installing a specific version tag helps to avoid unexpected updates_
 
 ## TransitonView
 
