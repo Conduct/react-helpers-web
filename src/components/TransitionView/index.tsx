@@ -134,10 +134,18 @@ const TransitionViewWithoutMemo: React.FC<Props> = ({
   // To help keep the fading out children behind the fading in
   const rerenderTime = Date.now();
 
-  const [transitions] = useTransition(
+  const [transitions] = useTransition<
+    typeof childrenListData[number],
+    {
+      opacity: number;
+      translateY: number;
+      delay: number;
+      zIndex: number;
+    }
+  >(
     childrenListData,
     {
-      key: ({ id }) => id + (slideExistingItems ? "" : contentChangedKey),
+      keys: ({ id }) => id + (slideExistingItems ? "" : contentChangedKey),
       from: ({ y }) => ({
         translateY: y,
         opacity: 0,

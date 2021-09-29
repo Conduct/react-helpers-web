@@ -1,6 +1,6 @@
 {
   "name": "react-helpers-web",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "**components, utils and hooks for react-DOM**",
   "main": "./lib/index.js",
   "scripts": {
@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "use-resize-observer": "^6.1.0",
-    "react-spring": "^9.0.0-rc.3",
+    "react-spring": "^9.2.4",
     "lodash.throttle": "^4.1.1",
     "@emotion/core": "^10.0.34",
     "@types/lodash.throttle": "^4.1.6"

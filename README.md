@@ -22,7 +22,7 @@ utils
 
 ```ts
 // package.json
-"dependencies": { "react-helpers-web": "github:Conduct/react-helpers-web#v0.1.1" }
+"dependencies": { "react-helpers-web": "github:Conduct/react-helpers-web#v0.1.2" }
 ```
 
 _installing a specific version tag helps to avoid unexpected updates_
